@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Product1",
+        "price": 20,
+        "description": "Desc....",
+        "rating": 5,
+        "images": [
+          {
+            "publicId": "public ID",
+            "url": "Url"
+          }
+        ],
+        "category": "Electronics",
+        "seller": "Seller 1",
+        "stock": 10,
+        "numOfReviews": 2,
+        "reviews": [
+          {
+            "name": "Review1",
+            "rating": 4,
+            "comment": "Comment..."
+          }
+        ],
+        "createdAt": "2018-09-22T15:00:00.000Z"
+    },
+    {
+        "name": "Product2",
+        "price": 120,
+        "description": "Desc....",
+        "rating": 5,
+        "images": [
+          {
+            "publicId": "public ID 2",
+            "url": "Url"
+          }
+        ],
+        "category": "Home",
+        "seller": "Seller 2",
+        "stock": 10,
+        "numOfReviews": 2,
+        "reviews": [
+          {
+            "name": "Review2",
+            "rating": 4,
+            "comment": "Comment..."
+          }
+        ],
+        "createdAt": "2018-09-23T15:00:00.000Z"
+    },
+    {
+      "name": "Product 3",
+      "price": 220,
+      "description": "Desc....",
+      "rating": 5,
+      "images": [
+        {
+          "publicId": "public ID 2",
+          "url": "Url"
+        }
+      ],
+      "category": "Electronics",
+      "seller": "Seller 2",
+      "stock": 10,
+      "numOfReviews": 2,
+      "reviews": [
+        {
+          "name": "Review2",
+          "rating": 4,
+          "comment": "Comment..."
+        }
+      ],
+      "createdAt": "2018-09-23T15:00:00.000Z"
+  }
+
+
+]
