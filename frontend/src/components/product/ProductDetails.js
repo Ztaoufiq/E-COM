@@ -17,18 +17,19 @@ const ProductDetails = (match) => {
     const { loading, error, product} = useSelector(state => state.productDetails);
 
     useEffect(() => {
+        dispatch(getProductDetails(match.params.id));      
+        
         if(error){
             alert.error(error);
             dispatch(clearerrors);
         }
-
-        dispatch(getProductDetails(id));      
-    }, [dispatch, alert, error, id]);
+    }, [dispatch, alert, error, match.params.id]);
 
     return (
         <Fragment>
             {loading ? <Loader /> : (
                 <Fragment>
+                    <Metadata title={product.name} />
                     <div className="row f-flex justify-content-around">
                         <div className="col-12 col-lg-5 img-fluid" id="product_image">
                             <Carousel pause="hover">
